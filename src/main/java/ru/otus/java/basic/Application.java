@@ -27,8 +27,8 @@ public class Application {
     }
 
     public static void demo3() {
-        System.out.println("-");
+        System.out.println("000-");
         IntStream.rangeClosed(1, 3).forEach(System.out::println);
-        System.out.println("-");
+        System.out.println("000-");
     }
 }
