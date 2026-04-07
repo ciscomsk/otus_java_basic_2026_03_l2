@@ -35,6 +35,9 @@ public class Application {
 
     public static void featureDevOne() {
         System.out.println("feature dev one start");
+        IntStream.rangeClosed(1, 2).forEach(System.out::println);
+        int x = 10;
+        System.out.println(x);
         System.out.println("feature dev one end");
     }
 }
