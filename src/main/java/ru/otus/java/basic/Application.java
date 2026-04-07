@@ -1,6 +1,5 @@
 package ru.otus.java.basic;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 
@@ -25,5 +24,9 @@ public class Application {
         System.out.println("-----");
         List.of(1, 2, 8).forEach(i -> System.out.println("---" + i));
         System.out.println("-----");
+    }
+
+    public static void demo3() {
+        System.out.println("-");
     }
 }
