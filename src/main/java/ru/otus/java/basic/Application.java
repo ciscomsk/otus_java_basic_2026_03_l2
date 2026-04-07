@@ -32,4 +32,9 @@ public class Application {
         IntStream.rangeClosed(1, 3).forEach(System.out::println);
         System.out.println("000-");
     }
+
+    public static void featureDevOne() {
+        System.out.println("feature dev one start");
+        System.out.println("feature dev one end");
+    }
 }
