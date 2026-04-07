@@ -5,16 +5,12 @@ import java.util.stream.IntStream;
 public class Application {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        demo();
+        demo2();
     }
 
-    public static void demo() {
-//        System.out.println(1);
-//        System.out.println(2);
-//        System.out.println(3);
-        // =
+    public static void demo2() {
         System.out.println("-----");
-        IntStream.rangeClosed(1, 3).forEach(System.out::println);
+        IntStream.rangeClosed(1, 3).forEach(i -> System.out.println("---" + i));
         System.out.println("-----");
     }
 }
