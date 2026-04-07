@@ -17,4 +17,8 @@ Git -> Pull...
 cd /home/mike/___learn_0/Java/otus_basic_2026_03/_repos/otus_java_basic_2026_03_l2
 ls .git/
 
+git clone <project>
+
+git push --force // после Hard reset
+
 https://github.com/settings/keys
