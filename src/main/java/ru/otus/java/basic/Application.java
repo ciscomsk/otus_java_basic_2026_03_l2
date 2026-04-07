@@ -23,7 +23,9 @@ public class Application {
 
     public static void demo2() {
         System.out.println("-----");
+        System.out.println("-----");
         List.of(1, 2, 8).forEach(i -> System.out.println("---" + i));
+        System.out.println("-----");
         System.out.println("-----");
     }
 }
