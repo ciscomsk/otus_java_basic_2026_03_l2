@@ -38,6 +38,10 @@ public class Application {
         IntStream.rangeClosed(1, 2).forEach(System.out::println);
         int x = 10;
         System.out.println(x);
+        int y = 20;
+        int z = x + y;
+        System.out.println(y);
+        System.out.println(z);
         System.out.println("feature dev one end");
     }
 }
