@@ -16,8 +16,8 @@ public class Application {
 //        System.out.println(3);
         // =
         System.out.println("-----");
-        IntStream.rangeClosed(0, 3).forEach(System.out::println);
-        System.out.println("----");
+        IntStream.rangeClosed(0, 4).forEach(System.out::println);
+        System.out.println("----11");
     }
 
     public static void demo2() {
